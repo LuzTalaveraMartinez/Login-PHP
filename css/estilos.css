@@ -1,0 +1,369 @@
+body {
+    background-image: url("../img/fondo-principal02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;
+}
+
+#sidebar .saludo {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: auto 30px;
+}
+
+#sidebar .bloque {
+    width: 30vw;
+    padding: 1rem;
+    margin: 1rem 8rem;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#sidebar .bloque .formulario,
+.formulario02,
+.titulo_ingresar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin: 0px auto;
+    text-align: center;
+    width: 80%;
+    color: #f0efef;
+    text-transform: uppercase;
+}
+
+#sidebar .bloque .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6ace3cd5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    width: 80%;
+    padding: 8px 8px;
+    margin: 0px 42px;
+    margin-bottom: 8px;
+}
+
+#sidebar .bloque .formulario02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7619716b;
+    width: 80%;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#sidebar .mis-datos {
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin: 0px auto;
+    text-align: center;
+    width: 20%;
+    text-transform: uppercase;
+    color: #f0efef;
+}
+
+#sidebar .mis-datos01 {
+    text-align: center;
+    padding: 15px;
+    margin: 15px auto;
+    text-align: center;
+    width: 20%;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sidebar .formulario03 label {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#sidebar .formulario03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #570d576b;
+    font-size: 18px;
+    color: #f0efef;
+    width: 20%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#sidebar .formulario05 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #570d576b;
+    font-size: 18px;
+    color: #f0efef;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#sidebar .formulario05 label {
+    color: white;
+}
+
+#sidebar .alerta h3 {
+    width: 80%;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 8px;
+    margin: 8px auto;
+    font-size: 16px;
+    background-color: #e3f309fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sidebar .formulario03 input {
+    width: 95%;
+    height: 36px;
+    border-radius: 1px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #111010;
+    font-size: 15px;
+}
+
+#sidebar .formulario03 input:hover {
+    border-bottom: 1px solid #2484f1;
+}
+
+#sidebar .formulario03 .boton {
+    background-color: #2484f1;
+    margin-top: 15px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+#sidebar .formulario03 .boton:hover {
+    background-color: #ffff;
+    color: #07071f;
+    border: none;
+}
+
+#sidebar .formulario03 .boton-cerrar {
+    background-color: #f12424;
+    margin-top: 6px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 18px;
+    width: 80%;
+    text-decoration: none;
+    color: #07071f;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#sidebar .formulario03 .boton-cerrar a {
+    text-decoration: none;
+    color: #07071f;
+    margin-top: 8px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 25px;
+    width: 45%;
+}
+
+#sidebar .bloque label {
+    color: #f6f6f4fd;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+    background-color: #b81bb838;
+    width: 60%;
+    height: 36px;
+}
+
+#sidebar .bloque input {
+    width: 60%;
+    height: 36px;
+    border-radius: 1px;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #05040f;
+    font-size: 18px;
+}
+
+#sidebar .bloque input:hover {
+    border-bottom: 2px solid #2484f1;
+}
+
+#sidebar .bloque .boton {
+    background-color: #2484f1;
+    margin-top: 8px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 25px;
+    width: 45%;
+    cursor: pointer;
+}
+
+#sidebar .bloque .boton:hover {
+    background-color: #ffff;
+    color: #07071f;
+}
+
+#mostrar-datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7619716b;
+    width: 20%;
+    padding: 5px;
+    margin: 100px auto;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#mostrar-datos .Mis_datos {
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin: 0px auto;
+    text-align: center;
+    width: 80%;
+    text-transform: uppercase;
+    color: #f0efef;
+    font-size: 15px;
+}
+
+#mostrar-datos .formulario04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #570d576b;
+    font-size: 18px;
+    color: #f0efef;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+#mostrar-datos .formulario04 .boton {
+    background-color: #2484f1;
+    margin-top: 15px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+#mostrar-datos .formulario04 .boton-cerrar {
+    background-color: #f12424;
+    margin-top: 6px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 18px;
+    width: 80%;
+    text-decoration: none;
+    color: #07071f;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#mostrar-datos .formulario04 .boton-cerrar a {
+    text-decoration: none;
+    color: #07071f;
+    margin-top: 8px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 25px;
+    width: 45%;
+}
+
+#mostrar-datos .formulario04 .label {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#mostrar-datos .formulario04 .input {
+    width: 90%;
+    height: 36px;
+    border-radius: 1px;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #111010;
+    font-size: 15px;
+}
+
+#mostrar-datos .formulario04 .input:hover {
+    border-bottom: 2px solid #2484f1;
+}
+
+#mostrar-datos .formulario04 .boton_mostrar-datos {
+    background-color: #2484f1;
+    margin-top: 8px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 25px;
+    margin: 0px 30px 0px 0px;
+    cursor: pointer;
+}
+
+#mostrar-datos .formulario04 .boton_mostrar-datos:hover {
+    background-color: #ffff;
+    color: #07071f;
+}
+
+.titulo-datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1a1b1d;
+    font-size: 28px;
+    background-color: #ffffff;
+    height: 20px;
+    padding: 40px 20px;
+}
